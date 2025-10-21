@@ -13,7 +13,8 @@ export default function CallPage() {
         const targetElement = document.getElementById(
           "sophiie-custom-target-call-frame"
         );
-        window.sophiie.call.load({
+        // @ts-ignore
+        window?.sophiie?.call.load({
           orgId: "your-org-id", // Replace with your Organization ID
           render: {
             mode: "dialog",
