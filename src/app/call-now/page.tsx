@@ -15,7 +15,8 @@ export default function CallPage() {
         );
         // @ts-ignore
         window?.sophiie?.call.load({
-          orgId: "your-org-id", // Replace with your Organization ID
+          orgId: "yorg_3qVtWHNHpBeMxh3345uBbSsCQQZa", // Replace with your Organization ID
+          environment: "development",
           render: {
             mode: "dialog",
             target: targetElement,
